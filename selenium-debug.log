@@ -1,0 +1,33 @@
+15:54:52.567 INFO - Launching a standalone Selenium Server
+15:54:52.597 INFO - Java: Oracle Corporation 25.144-b01
+15:54:52.597 INFO - OS: Mac OS X 10.12.6 x86_64
+15:54:52.604 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+15:54:52.657 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+15:54:52.658 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+15:54:52.658 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:54:52.658 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:54:52.659 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:54:52.659 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:54:52.732 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:54:52.732 INFO - Selenium Server is up and running
+15:54:52.958 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:54:52.967 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 21417
+Only local connections are allowed.
+15:54:54.152 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:54:54.161 INFO - Executing: [get: http://google.com])
+15:54:55.996 INFO - Done: [get: http://google.com]
+15:54:56.002 INFO - Executing: [find elements: By.cssSelector: body])
+15:54:56.030 INFO - Done: [find elements: By.cssSelector: body]
+15:54:56.039 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:54:56.056 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:54:56.060 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (c60f25d4105f9d1fb5f5d79265f4f99f)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
+15:54:58.258 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (c60f25d4105f9d1fb5f5d79265f4f99f)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
+15:54:59.270 INFO - Executing: [find element: By.cssSelector: #main])
+15:54:59.288 INFO - Done: [find element: By.cssSelector: #main]
+15:54:59.291 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (c60f25d4105f9d1fb5f5d79265f4f99f)] -> css selector: #main]])
+15:54:59.523 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (c60f25d4105f9d1fb5f5d79265f4f99f)] -> css selector: #main]]
+15:54:59.529 INFO - Executing: [delete session: 902ee360-a5a0-4901-a125-0264115cfb85])
+15:54:59.606 INFO - Done: [delete session: 902ee360-a5a0-4901-a125-0264115cfb85]

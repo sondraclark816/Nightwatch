@@ -1,0 +1,16 @@
+{
+  "name": "nightwatch",
+  "version": "1.0.0",
+  "description": "Trying out Nightwatch for future Togglit use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "e2e": "nightwatch --config nightwatch.conf.BASIC.js"
+  },
+  "author": "Nichole Clark",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.16"
+  }
+}
+
